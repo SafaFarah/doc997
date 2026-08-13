@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
+
+.active hr {
+  @apply block
+}
 
 @theme {
   --color-primary-50: #e6fafe;
@@ -13,4 +18,8 @@
   --color-primary-800: #035263;
   --color-primary-900: #012932;
   --color-primary-950: #011d23;
+}
+
+body {
+  font-family: "Inter";
 }
