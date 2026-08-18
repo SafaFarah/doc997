@@ -20,6 +20,10 @@
   --color-primary-950: #011d23;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter";
 }
